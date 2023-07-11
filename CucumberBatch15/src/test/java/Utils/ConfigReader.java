@@ -9,7 +9,7 @@ public class ConfigReader {
     static Properties prop;
     public static Properties readProperties(){
         try {
-            FileInputStream file=new FileInputStream("C:\\Users\\demay\\IdeaProjects\\CucumberBatch15\\src\\test\\resources\\Config\\config.properties");
+            FileInputStream file=new FileInputStream("./src/test/resources/Config/config.properties");
        prop=new Properties();
        prop.load(file);
         } catch (FileNotFoundException e) {

@@ -32,4 +32,7 @@ public class AddEmployeePage extends CommonMethods {
    public  WebElement saveBtn;
 
 
+    @FindBy(id = "employeeId")
+    public  WebElement empIdLocator;
+
 }
